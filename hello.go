@@ -33,6 +33,7 @@ func main() {
 
 	mnSlice := []string{"li", "gao", "fei"}
 	fmt.Println(mnSlice)
+
 	for i := 0; i < len(mnSlice); i++ {
 		fmt.Println(mnSlice[i])
 	}
