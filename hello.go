@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"github.com/arnauddri/algorithms/algorithms/sorting/bubble-sort"
 	//"github.com/gotest/bubble"
@@ -51,4 +52,6 @@ func main() {
 	arr := []int{4, 2, 23, 1, 43, 13, 56}
 	bubble.Sort(arr)
 	fmt.Println(arr)
+
+	log.Printf("log out")
 }
